@@ -1,0 +1,23 @@
+{
+  "name": "lari",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Larileonell/API-REST-typescript.git",
+  "author": "Allana Larissa <larissaleonel98@gmail.com>",
+  "license": "MIT",
+  "scripts": {"dev": "nodemon --exec ts-node ./src/index.ts"},
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/nodemon": "^1.19.2",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.10.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.12"
+  }
+}
